@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.parent-main-div {
+    background-image: url(./images/City.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.child-main-div {
+    background-color: #485bcce3;
+}
+
+.web-intro-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.web-logo-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-img {
+    width: 100px;
+    margin: 10px;
+}
+
+.web-hd-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.web-hd {
+    font-size: 60px;
+    color: rgb(50, 48, 48);
+    font-weight: 700;
+}
+
+.web-sub-hd {
+    text-align: center;
+    margin: 10px;
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.scroll-icon {
+    color: rgb(206, 59, 96);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#animation-container {
+    padding: 0 12%;
+}
+
+.animation-hd-container {
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animat-box {
+    width: 50%;
+    height: 200px;
+    border: 10px solid white;
+    background-color: #202746;
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30%;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30%;
+}
+
+.animation-code {
+    color: #0992C9;
+    padding-left: 20px;
+    min-width: max-content;
+}
+
+.cdn-container {
+    background-color: #0E0F34;
+    padding: 0 20%;
+}
+
+.cdn-part-hd {
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.cdn-btn {
+    background-color: transparent;
+    color: rgb(246, 60, 97);
+    border: 1px solid rgb(251, 56, 95);
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin: 3px;
+}
+
+.cdn-btn:hover {
+    background-color: rgb(246, 60, 97);
+    color: white;
+}
+
+hr {
+    border: rgb(135, 132, 132) 0.01px solid;
+    margin-top: 30px;
+}
+
+.link-hd {
+    color: rgb(135, 132, 132);
+}
+
+.link {
+    width: 100%;
+    padding: 20px;
+    background-color: #202746;
+    margin: 9px 0;
+    color: rgba(0, 255, 255, 0.915);
+    overflow: auto;
+}
